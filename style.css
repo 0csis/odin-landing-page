@@ -71,7 +71,11 @@ button {
 }
 
 .hero-right {
+  display: flex;
   width: 29rem;
   height: 14rem;
   background-color: grey;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
