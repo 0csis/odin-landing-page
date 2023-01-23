@@ -10,7 +10,7 @@ header {
   width: 100%;
 }
 
-.top {
+.first {
   display: flex;
   justify-content: space-between;
   padding: 0rem 9rem 0rem 9rem;
