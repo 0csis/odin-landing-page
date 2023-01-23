@@ -3,14 +3,14 @@ body {
   min-height: 100vh;
 }
 
-header {
+first {
   background-color: #1F2937;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.first {
+.top {
   display: flex;
   justify-content: space-between;
   padding: 0rem 9rem 0rem 9rem;
