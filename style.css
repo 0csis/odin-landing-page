@@ -26,13 +26,16 @@ body {
 ul {
   display: flex;
   list-style-type: none;
-  gap: 1rem;
 }
 
 a {
   text-decoration: none;
   font-size: 18px;
   color: #E5E7EB;
+}
+
+.link {
+  padding-right: 1rem;
 }
 
 .hero {
@@ -78,4 +81,45 @@ button {
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+.second {
+  display: flex;
+  padding: 3rem 0rem 6rem 0rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-second {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.bottom-second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-holder-second {
+  border: 0.2rem;
+  border-style: solid;
+  border-radius: 0.5rem;
+  color: #3882f6;
+  width: 7rem;
+  height: 7rem;
+  margin: 1.3rem;
+}
+
+.text-holder-second {
+  width: 9rem;
+  color: grey;
+  margin-top: -3rem;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.texts-holder-second {
+  margin-left: 1.1rem;
 }
