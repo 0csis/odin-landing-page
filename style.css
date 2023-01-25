@@ -4,12 +4,13 @@ body {
 
 .first {
   background-color: #1F2937;
+  padding-bottom: 4rem;
 }
 
 .top {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 7rem 2rem 7rem;
+  padding: 1rem 7rem 3rem 7rem;
 }
 
 .header-logo {
@@ -73,15 +74,23 @@ button {
 }
 
 .second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0 3rem 0;
 }
 
 .top-second {
   font-size: 36px;
   font-weight: bolder;
   color: #1F2937;
+  padding-bottom: 1rem;
 }
 
-.bottom-second {
+.images-second {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .image-holder-second {
@@ -89,13 +98,20 @@ button {
   border-style: solid;
   border-radius: 0.5rem;
   color: #3882f6;
+  width: 8rem;
+  height: 8rem;
 }
 
 .text-holder-second {
   color: grey;
+  width: 9rem;
+  text-align: center;
 }
 
 .texts-holder-second {
+  display: flex;
+  justify-content: center;
+  gap: 2.3rem;
 }
 
 .third {
